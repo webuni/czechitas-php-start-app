@@ -1,0 +1,17 @@
+{
+    "name": "czechitas/tvorime-web-v-php",
+    "type": "project",
+    "require": {
+        "symfony/http-foundation": "^3.1",
+        "symfony/var-dumper": "^3.1",
+        "gabordemooij/redbean": "^4.3",
+        "twig/twig": "^1.26"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Hasoň",
+            "email": "martin.hason@gmail.com"
+        }
+    ]
+}

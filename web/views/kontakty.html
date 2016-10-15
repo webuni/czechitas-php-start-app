@@ -1,0 +1,13 @@
+<header>
+    <h1>Kontakty</h1>
+</header>
+<section>
+    <ul>
+    {% for question in db.find('question') %}
+        <li>
+            <strong>{{ question.name }}</strong> <em>{{ question.email }}</em> - <small>{{ question.created|date('d. m. Y H:i') }}</small>
+            <p>{{ question.message }}</p>
+        </li>
+    {% endfor %}
+    </ul>
+</section>

@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Jana Dobrá | Czechitas</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/main.css"/>
+</head>
+<body>
+
+<div id="wrapper">
+    <div id="nav">
+        {{ include("menu.html") }}
+    </div>
+    <div id="main">
+        <article class="panel">
+            {{ include(template) }}
+        </article>
+    </div>
+    <div id="footer">
+        <ul class="copyright">
+            <li>&copy; {{ "now"|date('Y') }}.</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
